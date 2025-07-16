@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul S Nadig - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        .section-content {
+            margin-bottom: 1.5rem;
+        }
+        .list-item {
+            margin-bottom: 0.5rem;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: #2980b9;
+        }
+        .project-item, .experience-item, .education-item, .certification-item, .internship-item {
+            background-color: #ecf0f1;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .project-item p, .experience-item p, .education-item p, .certification-item p, .internship-item p {
+            margin-bottom: 0.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+        .skill-category {
+            background-color: #ecf0f1;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skill-category ul li {
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center pb-6 border-b-2 border-gray-200">
+            <h1 class="text-blue-800">RAHUL S NADIG</h1>
+            <div class="contact-info text-lg text-gray-700">
+                <p>Email: <a href="mailto:rahulsnadig@gmail.com">rahulsnadig@gmail.com</a> | Phone: +91 98869 21256</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/rahul-s-nadig-3b6875176" target="_blank">linkedin.com/in/rahul-s-nadig-3b6875176</a></p>
+                <p>GitHub: <a href="https://github.com/rahul1256" target="_blank">github.com/rahul1256</a></p>
+            </div>
+        </header>
+
+        <!-- Objective Section -->
+        <section>
+            <h2>OBJECTIVE</h2>
+            <div class="section-content">
+                <p>To secure a Full Stack Developer role where I can build robust, user-centric applications, leveraging my end-to-end development skills. Long-term, I aim to architect scalable tech solutions that drive innovation. I'm passionate about bridging front-end creativity with back-end logic to solve real-world challenges through code.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>Eclipse</li>
+                        <li>Arduino IDE</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>ML/AI</h3>
+                    <ul>
+                        <li>YOLO v5/v8</li>
+                        <li>Image Processing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>PROJECTS</h2>
+            <div class="project-item">
+                <h3>Rising-Green - Web App for Agriculture (Python, ML, Django)</h3>
+                <p>Developed an end-to-end system for crop & fertilizer recommendation using machine learning.</p>
+                <p>Integrated image processing for disease detection with 85%+ accuracy.</p>
+            </div>
+            <div class="project-item">
+                <h3>An AI-Based system for Bird and Drone detection using YOLO v5 object detection model</h3>
+                <p>Developed project will classify drones and birds by using the YOLO v5 model, which focuses on the critical necessity to protect bird species and maintain a stable ecological balance.</p>
+                <p>Published journal International Journal of Innovative Research in Science, Engineering, and Technology (IJIRSET).</p>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section>
+            <h2>WORK EXPERIENCE</h2>
+            <div class="experience-item">
+                <h3>Software Developer at Solidz.IO</h3>
+                <p>1/7/2024 - 4/4/2025</p>
+                <p>Proficient in Python, HTML/CSS, JavaScript, with experience in MySQL and Django.</p>
+                <ul>
+                    <li>Built a Django-based admin panel for RFID key management serving over 5+ client organizations including Adani Aerospace.</li>
+                    <li>Designed front-end UI in HTML/CSS for Coffee Vending Machine, improving user interaction and reducing login time by 20%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>EDUCATION</h2>
+            <div class="education-item">
+                <h3>Master of Computer Application (MCA)</h3>
+                <p>Jawaharlal Nehru College of Engineering, Visvesvaraya Technological University</p>
+                <p>2022-2023</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Computer Application (BCA)</h3>
+                <p>SRNMN College of Applied Sciences, Kuvempu University</p>
+                <p>2019-2022</p>
+            </div>
+        </section>
+
+        <!-- Certification Section -->
+        <section>
+            <h2>CERTIFICATION</h2>
+            <div class="certification-item">
+                <ul>
+                    <li>Salesforce Administrator</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section>
+            <h2>INTERNSHIP</h2>
+            <div class="internship-item">
+                <h3>Vibran Power - Bangalore</h3>
+                <p>1/11/2022 - 30/11/2022</p>
+                <p>Participated on a solar power project that included configuration Python models, Django, and frontend designs.</p>
+            </div>
+        </section>
+
+        <!-- Additional Information Section -->
+        <section>
+            <h2>ADDITIONAL INFORMATION</h2>
+            <div class="section-content">
+                <ul>
+                    <li><strong>Sports/Participation:</strong> Cycling, Running, Swimming, Badminton, Former NCC Cadet</li>
+                    <li><strong>Awards:</strong> "Guinness World Record" in a Mass Cycling event.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section>
+            <h2>LANGUAGES</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Kannada</li>
+                    <li>English</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
