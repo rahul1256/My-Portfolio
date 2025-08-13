@@ -99,12 +99,46 @@
         .secondSection {
             margin: auto;
             max-width: 80vw;
+            height: 100vh;
         }
 
         .secondSection h1 {
             font-size: 1.5rem; 
         }
 
+        .secondSection .box {
+            height: 2px;
+            background-color: white;
+            width: 76vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        
+        .img-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title {
+            top: 75px;
+            width: 205px;
+            position: relative;
+        }
+        .verticle-desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 10px;
+            color: gray;
+        }
     </style>
 </head>
 <body>
@@ -136,13 +170,40 @@
             <section class="secondSection">
                 <span class="text-gray">What I have done so far</span>
                 <h1>Work Experience</h1>
-                <p>SOLIDZ.IO</p>
-                <p>Software Developer</p>
-                <p class="text-gray">Jul 2024 - Apr 2025</p>
-                <p class="text-gray">Worked on developing and maintaining web applications using Python. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
-                <p class="text-gray">Technologies: HTML, CSS, JavaScript, Python, Django, MySQL</p>
-                <hr>
-                <p>XYZ</p>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src="developer.png" alt="work icon"/>
+                        <div class="vertical-title">
+                            Software Developer Intern (1/Nov/2022 - 31/Nov/2022)
+                        </div>
+                        <div class="verticle-desc">
+                            Participated on a solar power project that include configuration of Technologies.
+                        </div>
+                        <div class="verticle-desc">
+                            <b>Technologies:</b> HTML, CSS, JavaScript, Python.
+                        </div>
+                    </div>
+                    
+                    <div class="vertical">
+                        <img class="img-top" src="developer.png" alt="work icon"/>
+                        <div class="vertical-title">
+                            Software Developer <br>(Jul 2024 - Apr 2025)
+                        </div>
+                        <div class="verticle-desc">
+                            Worked on developing and maintaining web 
+                            applications using Python. 
+                            Collaborated with cross-functional teams 
+                            to deliver high-quality software solutions.
+                        </div>
+                        <div class="verticle-desc">
+                            <b>Technologies:</b> HTML, CSS, JavaScript, Python, Django, MySQL.
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+        </hr>
+                
     </main>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
