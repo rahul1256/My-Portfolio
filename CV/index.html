@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul S Nadig - Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -37,22 +40,23 @@
             margin: 0 23px;
         }
 
-        nav ul li a{
+        nav ul li a {
             text-decoration: none;
             color: white;
         }
+
         nav ul li a:hover {
             color: rgb(181, 125, 235);
             font-size: 1.02rem;
             transition: 0.10s;
         }
 
-        main hr{
+        main hr {
             border: 0;
             height: 1.2px;
             background-color: rgb(181, 125, 235);
-            margin: 60px 84px; 
-      }
+            margin: 40px 84px;
+        }
 
         .left {
             font-size: 1.5rem;
@@ -62,11 +66,11 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            padding: 20px;
-            margin: 50px 0;
+            padding: 15px;
+            margin: 20px 1px;
         }
 
-        .firstSection > div {
+        .firstSection>div {
             width: 40%;
         }
 
@@ -74,6 +78,26 @@
             width: 35%;
             padding: 10px;
             font-size: 2.5rem;
+        }
+
+        .leftSection div {
+            margin: 20px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 30px 0;
+            margin-top: ;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
         }
 
         .rightSection img {
@@ -88,7 +112,7 @@
 
         .text-gray {
             color: gray;
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
 
         .color {
@@ -99,14 +123,92 @@
         .secondSection {
             margin: auto;
             max-width: 80vw;
+            height: 65vh;
         }
 
         .secondSection h1 {
-            font-size: 1.5rem; 
+            font-size: 2rem;
         }
 
+        .secondSection .box {
+            height: 2px;
+            background-color: white;
+            width: 76vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 230px;
+        }
+
+        .img-top {
+            width: 30px;
+            position: relative;
+            top: -33px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            top: 73px;
+            width: 400px;
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 83px;
+            width: 300px;
+            font-size: 15px;
+            color: gray;
+        }
+
+        .img-top2 {
+            width: 30px;
+            position: relative;
+            top: -33px;
+            left: -10px;
+        }
+        .footer {
+            background-color: #0e0e1a;
+            color: rgb(246, 241, 241);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer>div {
+            width: 223px;
+            height: 100%;
+            display: flex;
+        }
+
+        .footer .footer-fourth .img-logo1,
+        .footer .footer-fourth .img-logo2,
+        .footer .footer-fourth .img-logo3,
+        .footer .footer-fourth .img-logo4 {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -122,37 +224,131 @@
     </header>
 
     <main>
-            <section class="firstSection">
-                <div class="leftSection">
-                    <div>Hello!</div> 
-                    <div>I'm <span class="purple">Rahul S Nadig</span>, a passionate <span id="element" class="color"></span> with a love for creating innovative solutions.</div>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hello!</div>
+                <div>I'm <span class="purple">Rahul S Nadig</span>, a passionate <span id="element"
+                        class="color"></span> with a love for creating innovative solutions.
+                </div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
 
+            <div class="rightSection">
+                <img src="img2.png">
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="work icon" />
+                    <div class="vertical-title">
+                        Software Developer Intern <br> (1/Nov/2022 - 31/Nov/2022)
+                    </div>
+                    <div class="verticle-desc">
+                        Participated on a solar power project that include configuration of Technologies.
+                    </div>
+                    <div class="verticle-desc">
+                        <br> <b>Technologies:</b> HTML, CSS, JavaScript, Python.
+                    </div>
                 </div>
 
-                <div class="rightSection">
-                    <img src="img2.png">
-            </section>
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="work icon" />
+                    <div class="vertical-title">
+                        Software Developer <br>(Jul 2024 - Apr 2025)
+                    </div>
+                    <div class="verticle-desc">
+                        Worked on developing and maintaining web
+                        applications using Python.
+                        Collaborated with cross-functional teams
+                        to deliver high-quality software solutions.
+                    </div>
+                    <div class="verticle-desc">
+                        <br> <b>Technologies:</b> HTML, CSS, JavaScript, Python, Django, MySQL.
+                    </div>
+                </div>
+            </div>
+        </section>
         <hr>
-            <section class="secondSection">
-                <span class="text-gray">What I have done so far</span>
-                <h1>Work Experience</h1>
-                <p>SOLIDZ.IO</p>
-                <p>Software Developer</p>
-                <p class="text-gray">Jul 2024 - Apr 2025</p>
-                <p class="text-gray">Worked on developing and maintaining web applications using Python. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
-                <p class="text-gray">Technologies: HTML, CSS, JavaScript, Python, Django, MySQL</p>
-                <hr>
-                <p>XYZ</p>
+        <section class="secondSection">
+            <span class="text-gray">Studies so for</span>
+            <h1>Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top2" src="CV/educ.png" alt="" />
+                    <div class="vertical-title">
+                        Bachelor of Computer Science
+                        <br> (2019 - 2021)
+                    </div>
+                    <div class="verticle-desc">
+                        Completed a comprehensive curriculum in computer science, focusing on software development,
+                        algorithms, and data structures.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="img-top2" src="CV/educ.png" alt="" />
+                    <div class="vertical-title">
+                        Master of Computer Science
+                        <br> (2022 - 2023)
+                    </div>
+                    <div class="verticle-desc">
+                        Completed advanced studies in software engineering, specialized in web development and AI & ML.
+                    </div>
+                </div>
+            </div>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rahul's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="/">Sports</a></li>
+                    <li><a href="/">Participation</a></li>
+                    <li><a href="/">Achivements</a></li>
+                    <li><a href="/">Awards</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="/"> <img class="img-logo1" src="CV/linkedin.png" alt="LinkedIn icon" /></img></a></li>
+                    <li><a href="/"> <img class="img-logo2" src="CV/github.png" alt="GitHub icon" /></img> </a></li>
+                    <li><a href="/"> <img class="img-logo3" src="CV/twiter.gif" alt="Twitter icon" /></img> </a></li>
+                    <li><a href="/"> <img class="img-logo4" src="CV/insta.png" alt="Instagram icon" /></img> </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-gray" style="text-align: center; padding: 20px;">
+            Copyrights &copy; 2025 Rahul S Nadig. All rights reserved.
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
-      var typed = new Typed('#element', {
-        strings: ['Java Developer','Python Developer','Web Developer', '&amp;<i> CYCLIST</i>'],
-        typeSpeed: 50,
-      });
+        var typed = new Typed('#element', {
+            strings: ['Java Developer', 'Python Developer', 'Web Developer', '&amp;<i> CYCLIST</i>'],
+            typeSpeed: 50,
+        });
     </script>
 
 </body>
+
 </html>
